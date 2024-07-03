@@ -1,0 +1,628 @@
+@media screen and (min-width: 1024px) {
+    header {
+        width: 100%;
+        height: 1021px;
+    }
+    /* Part of menu in header */
+    .header {
+        background-image: url(images/8fefb65833b008164ebb4cf2ff06ad13.jpeg);
+        background-repeat: no-repeat;
+        background-position: center left;
+        background-size: cover;
+    }
+    .menu_header {
+        width: 100%;
+        height: 100px;
+        position: relative;
+    }
+    .menu_header,
+    .logo_part,
+    #menu_button {
+        background-color: transparent;
+    }
+    .menu_list {
+        width: 700px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .menu_list ul a {
+        font-size: 18px;
+    }
+    .menu_list,
+    .book_menu {
+        color: white;
+    }
+    .book_menu {
+        font-family: Open Sans;
+        font-weight: bold;
+        height: 50px;
+        border-left: 1px solid white;
+        padding-left: 25px;
+        position: relative;
+    }
+    .book_menu img {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+    }
+    #p_book_menu {
+        width: 300px;
+        position: absolute;
+        left: 15px;
+        font-weight: normal;
+    }
+    .img_p_book_menu {
+        display: flex;
+        flex-direction: row;
+    }
+    .img_p_book_menu p {
+        margin-left: 10px;
+    }
+    .shopping_cart_menu {
+        width: 15px;
+        height: 15px;
+        background-image: url(images/icons8-тележка-из-магазина-64.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .menu_list ul li {
+        display: inline-block;
+        font-family: Open Sans;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    .logo_part {
+        position: absolute;
+        top: 40px;
+        width: 32.77px;
+        height: 32.77px;
+        border: 3px solid #ff7400;
+        transform: rotate(45deg);
+    }
+    #logo_part_1 {
+        left: 120px;
+    }
+    #logo_part_2 {
+        left: 145px;
+    }
+    #menu_button {
+        display: none;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 31px;
+        height: 17.75px;
+    }
+    .menu_button_stick {
+        width: 100%;
+        height: 4px;
+        margin-top: 4px;
+        border-radius: 20%;
+        background-color: #ff7400;
+    }
+    /* Part of Welcome in header */
+    .welcome_header {
+        padding-top: 250px;
+        text-align: center;
+        font-size: 22px;
+        width: 100%;
+        height: 800px;
+    }
+    .welcome_text {
+        font-family: Tinos;
+        color: #d67e35;
+    }
+    .welcome_text_bottom {
+        color: #ffffff;
+        font-family: Open Sans;
+    }
+    #button_menu_header {
+        margin-top: 50px;
+        width: 137px;
+        height: 47px;
+        background-color: #ff7400;
+        color: white;
+        font-size: large;
+        border: none;
+    }
+    /* Cards of header part */
+    .cards_header {
+        margin-top: -100px;
+        display: flex;
+        flex-direction: row;
+    }
+    .card_header {
+        width: 290px;
+        height: 276px;
+        box-shadow: 0px 10px 20px rgb(128, 128, 128);
+        align-items: center;
+        margin-bottom: 15px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .gold_title_card_header {
+        color: #bc9060;
+    }
+    .img_inner_card_header {
+        margin-top: 30px;
+        width: 89px;
+        height: 89px;
+        background-image: url(images/img_card.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .text_inner_card_header {
+        color: #656363;
+        font-size: 22px;
+        text-align: center;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    /* Block Our History */
+    .block_our_history {
+        padding-top: 50px;
+        height: 1000px;
+        text-align: center;
+        font-family: Open Sans;
+    }
+    .content_our_history {
+        display: flex;
+        flex-direction: row;
+    }
+    .our_history {
+        margin-top: 50px;
+    }
+    .main_content_our_history {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    /* Title */
+    .title_our_history {
+        font-family: Tinos;
+    }
+    .title_our_history_part_2 {
+        color: #d67e34;
+    }
+    /* Text about our history */
+    .info_our_history {
+        display: flex;
+        flex-direction: row;
+    }
+    .text_info_our_history {
+        color: #656363;
+        font-size: 16px;
+    }
+    /* Info about menu */
+    .number_info_menu {
+        color: #bc9060;
+        margin-top: 15px;
+    }
+    .name_info_menu {
+        color: #000000;
+    }
+    /* Images of bludes */
+    .imgs_our_history {
+        width: 340px;
+        height: 307px;
+        position: relative;
+    }
+    .img_our_history {
+        position: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 5px 30px 2px rgb(31, 31, 31);
+    }
+    .img1_our_history {
+        z-index: 4;
+        left: 0;
+        top: 30px;
+        width: 175px;
+        height: 205px;
+        background-image: url(images/img1_our_history.jpeg);
+    }
+    .img2_our_history {
+        z-index: 2;
+        top: 0;
+        right: 50px;
+        width: 187px;
+        height: 272px;
+        background-image: url(images/img2_our_history.jpeg);
+    }
+    .img3_our_history {
+        z-index: 1;
+        top: 10px;
+        right: 15px;
+        width: 135px;
+        height: 164px;
+        background-color: #ffe8d0;
+    }
+    .img4_our_history {
+        z-index: 4;
+        right: 0;
+        bottom: 0;
+        width: 187px;
+        height: 205px;
+        background-image: url(images/img3_our_history.jpeg);
+    }
+    /* Order part of our history */
+    .order_our_history {
+        height: 357px;
+        background-color: black;
+        color: white;
+        font-family: Open Sans;
+    }
+    .content_order_our_history {
+        /* position: relative; */
+        width: 1000px;
+        height: 320px;
+        display: flex;
+        flex-direction: row;
+    }
+    .text_content_our_history {
+        display: flex;
+        flex-direction: column;
+        /* position: absolute;
+        left: 0; */
+    }
+    .orange_order_title {
+        color: #d67e34;
+        font-family: Tinos;
+        padding-top: 15px;
+    }
+    .order_button_our_history {
+        width: 139px;
+        height: 43px;
+        background-color: #ff7400;
+        border: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .info_order_our_history {
+        margin-top: 20px;
+    }
+    /* Block Our Dishes */
+    .block_our_dishes {
+        height: 800px;
+        text-align: center;
+    }
+    .content_our_dishes {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+    }
+    .title_our_dishes_part_2 {
+        color: #d67e34;
+    }
+    .img_our_dishes {
+        margin-top: 110px;
+        height: 500px;
+        width: 500px;
+        background-image: url(images/img_our_dishes.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transform: rotate(180deg);
+    }
+    /* dishes */
+    .dishes {
+        font-family: Tinos;
+        font-weight: lighter;
+    }
+    .dish {
+        width: 305px;
+        height: 113px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 95px;
+    }
+    #dish1 {
+        margin-top: 70px;
+        padding-top: 32px;
+    }
+    .dish_img {
+        width: 130px;
+        height: 113px;
+        background-image: url(images/img_hamburger_our_dishes.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    /* Block of Our Menu */
+    .block_our_menu {
+        height: 836px;
+        background-image: url(images/background_img_our_menu.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+    }
+    .title_our_menu {
+        color: white;
+        font-size: 54px;
+        font-family: Tinos;
+        padding-top: 65px;
+    }
+    /* Recommended Card of Our Menu */
+    .recommended_content_card_our_menu {
+        width: 80%;
+        height: 510px;
+        background-color: white;
+        margin-top: 100px;
+    }
+    .recommended_title_our_menu {
+        position: relative;
+        height: 36px;
+    }
+    .title {
+        width: 40%;
+        height: 36px;
+        font-family: Open Sans;
+        background-color: #d67e34;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: flex;
+    }
+    .img_card_our_menu {
+        height: 300px;
+        display: flex;
+    }
+    .circle_img_our_menu {
+        height: 225px;
+        width: 225px;
+        border-radius: 100%;
+        background-image: url(images/circle_img_our_menu.jpeg);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .circle_price_our_menu {
+        font-size: 30px;
+        font-family: Cookie;
+        color: white;
+        width: 100px;
+        height: 100px;
+        border: 7px solid white;
+        border-radius: 100%;
+        background-color: #d67e34;
+        display: flex;
+        position: absolute;
+        right: -2px;
+        bottom: -2px;
+    }
+    .info_card_our_menu {
+        height: auto;
+    }
+    .text1_info_card_our_menu {
+        font-size: 30px;
+        font-family: Tinos;
+    }
+    .text2_info_card_our_menu {
+        font-size: 16px;
+        font-family: Open Sans;
+    }
+    .button_info_card_our_menu {
+        width: 80%;
+        height: 50px;
+        background-color: #d67e34;
+        color: white;
+        font-size: 20px;
+        font-family: Open Sans;
+        border: none;
+        box-shadow: 10px 10px 20px rgba(155, 155, 155, 0.74);
+    }
+    .element_info_card_our_menu {
+        margin-bottom: 15px;
+    }
+    /* Block of Feedbacks */
+    .block_feedback {
+        background-color: #e5e4e4;
+        font-size: 20px;
+        font-family: Open Sans;
+        text-align: center;
+        height: 400px;
+    }
+    .text_feedback {
+        width: 75%;
+        padding-top: 15px;
+    }
+    /* Feedback Carusel */
+
+    .picture_feedback {
+        width: 40%;
+        height: 60%;
+        position: absolute;
+        left: 33%;
+    }
+    .picture {
+        width: 130px;
+        height: 130px;
+        border-radius: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 15px;
+    }
+    #picture1 {
+        background-image: url(images/picture1_visitor.jpeg);
+    }
+    .visitor,
+    .name_visitor {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    /* Block of Dishes Galary */
+    .block_dishes_galary {
+        height: 1000px;
+    }
+    .title_dishes_galary {
+        font-family: Tinos;
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 250px;
+    }
+    .title_content_dishes_galary {
+        text-align: center;
+    }
+    .orange_title_dishes_galary {
+        color: #d67e34;
+    }
+    .imgs_dishes_galary {
+        width: 80%;
+        height: 600px;
+        display: grid;
+        grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+        gap: 15px;
+    }
+    .img_dishes_galary {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .imgs_our_history {
+        text-align: center;
+    }
+    #img1_dishes_galary {
+        grid-row: 1 / 7;
+        grid-column: 1 / 7;
+        background-image: url(images/img1_dishes_galary.jpeg);
+    }
+    #img2_dishes_galary {
+        grid-row: 7 / 13;
+        grid-column: 1 / 4;
+        background-image: url(images/img2_dishes_galary.jpeg);
+    }
+    #img3_dishes_galary {
+        grid-row: 7 / 13;
+        grid-column: 4 / 7;
+        background-image: url(images/img3_dishes_galary.jpeg);
+    }
+    #img4_dishes_galary {
+        grid-row: 7 / 13;
+        grid-column: 7 / 13;
+        background-image: url(images/img1_dishes_galary.jpeg);
+    }
+    #img5_dishes_galary {
+        grid-row: 1 / 7;
+        grid-column: 7 / 10;
+        background-image: url(images/img2_dishes_galary.jpeg);
+    }
+    #img6_dishes_galary {
+        grid-row: 1 / 7;
+        grid-column: 10 / 13;
+        background-image: url(images/img3_dishes_galary.jpeg);
+    }
+    /* Block of Our Chefs */
+    .block_our_chefs {
+        height: 1000px;
+    }
+    .title_our_chefs {
+        font-family: Tinos;
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 250px;
+    }
+    .title_content_our_chefs {
+        text-align: center;
+    }
+    .orange_title_our_chefs {
+        color: #d67e34;
+    }
+    .img_our_chefs {
+        width: 30%;
+        height: 500px;
+        margin-top: 15px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .imgs_our_chefs {
+        display: flex;
+        flex-direction: row;
+    }
+    #img1_our_chefs {
+        background-image: url(images/img1_our_chefs.jpeg);
+    }
+    #img2_our_chefs {
+        background-image: url(images/img2_our_chefs.jpeg);
+    }
+    #img3_our_chefs {
+        background-image: url(images/img3_our_chefs.png);
+    }
+    /* Footer */
+    footer {
+        height: 300px;
+        background-image: url(images/background_footer.tiff);
+        font-family: Open Sans;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
+    ul {
+        list-style: none;
+    }
+    .social_media_footer {
+        position: relative;
+        width: 70%;
+    }
+    a {
+        text-decoration: none;
+        font-family: Open Sans;
+        font-size: 20px;
+        color: white;
+    }
+    #icon_instagram::before {
+        background: url(images/icons8-instagram-100.png);
+    }
+    .icons_social_media {
+        position: absolute;
+        left: 0;
+    }
+    #icon_instagram::before {
+        content: "";
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-size: contain;
+    }
+    #icon_instagram {
+        height: 40px;
+        position: relative;
+        margin-top: 15px;
+    }
+    #icon_instagram span {
+        position: absolute;
+        top: 5px;
+        left: 50px;
+    }
+    /* our Contacts Footer */
+    .our_contacts_footer {
+        position: absolute;
+        right: 0;
+    }
+    li h3 {
+        color: #a5a5a5;
+    }
+    .number_phone {
+        margin-top: 5px;
+    }
+    .our_contact {
+        margin-top: 20px;
+    }
+}
